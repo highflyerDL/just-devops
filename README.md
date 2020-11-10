@@ -22,6 +22,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 - Install docker: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
 
-- (k3d)[https://k3d.io]: `wget -q -O - https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash`
+- [k3d](https://k3d.io): `wget -q -O - https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash`
 
 

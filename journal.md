@@ -1,7 +1,13 @@
 - [x] Setup basic environment
 - [x] Setup k8s cluster using K3d
+  - k3d cluster create --volume ~/just-devops/manifests:/var/lib/rancher/k3s/server/manifests/test --api-port 6550 -p "8081:80@loadbalancer" --agents 2 k8s
 - [x] Install elastic operator
 - [x] Install elasticsearch pods
-- [ ] Configure so no need for sudo
-- [ ] Install the rest of ELK stack
+- [x] Configure so no need for sudo
+  - sudo cp /.kube ~/.kube
+  - sudo chmod -R $USER:$USER ~/.kube
+  - sudo gpasswd -a $USER docker
+  - newgrp docker
+- [x] Ingest logs from containers to elasticsearch -> kibana visualization
+- [ ] Ingest K8s metrics to kibana
 
