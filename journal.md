@@ -13,5 +13,10 @@
   - There are different [Metricbeat modules](https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-module-kubernetes.html) that can be used out-of-the-box with all the auto discovery to provide metrics from K8s
   - Install [kube-state-metrics](https://github.com/kubernetes/kube-state-metrics/tree/v1.9.7) so we can get `state_` metrics (API server metrics). Make sure the version is compatible with K8s version, so that apiVersion will be correct
   - Kibana also has Dashboard templates that are useful to start with e.g `[Metricbeat Kubernetes] Overview ECS`
+- [x] Install operator-sdk
+  - https://sdk.operatorframework.io/docs/installation/install-operator-sdk/
+- [x] Define API for tutorial CRD
+  - https://v1-2-x.sdk.operatorframework.io/docs/building-operators/golang/tutorial/#define-the-api
+- [ ] Implement controller
 
 
