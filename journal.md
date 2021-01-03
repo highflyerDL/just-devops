@@ -18,5 +18,6 @@
 - [x] Define API for tutorial CRD
   - https://v1-2-x.sdk.operatorframework.io/docs/building-operators/golang/tutorial/#define-the-api
 - [ ] Implement controller
-
+- [ ] Terraforms to deploy cluster to AWS
+- [ ] Helm charts for the manifests
 

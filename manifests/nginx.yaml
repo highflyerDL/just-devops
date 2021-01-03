@@ -30,11 +30,11 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPort: 80
+    nodePort: 30081
   selector:
     app: nginx
   sessionAffinity: None
-  type: ClusterIP
+  type: NodePort 
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
